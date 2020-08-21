@@ -1,0 +1,95 @@
+﻿.menu {
+    background: rgb(0,100,0);
+    opacity: 1.2;
+    /**background-image:linear-gradient(-25deg, #ff00dc,#342de4);*/
+    text-align: center;
+    width: 100%;
+}
+
+    .menu ul {
+        display: flex;
+        list-style: none;
+        color: white;
+        font-size: medium;
+    }
+
+        .menu ul li {
+            width: auto; /* set according to your design i.e. no.of menus*/
+            margin: 5px;
+            padding: 10px;
+        }
+
+            .menu ul li a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .active, .menu ul li:hover {
+                background-image: linear-gradient(-25deg, #ff00dc,#ff0000);
+                border-radius: 3px;
+                text-decoration: none;
+                padding: 10px;
+                cursor: inherit;
+            }
+
+.search {
+    font-size: small;
+    Height: 15px;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+.ftback {
+    display: flexbox;
+    background: rgb(0,100,0);
+    color: white;
+    padding: 10px;
+    bottom: 0px;
+    text-align: center;
+    font-size: 14px;
+    width: auto;
+}
+
+.dbox img{
+    height:120px;
+    margin:auto;
+    display:block;
+}
+.center{
+    text-align:center;
+    
+}
+.hp{
+    font-size:2.2rem;
+    padding:2px;
+    font-style:oblique;
+    font-family:'Times New Roman';
+}
+.hs{
+    font-size:1.2rem;
+    padding:2px;
+    margin:0px;
+}
+.camp{
+    margin:10px 5px;
+    display:flex;
+    }
+.camp .box{
+    border:2px solid brown;
+    padding:5px;
+    margin:2px 4px;
+    border-radius:20px;
+    
+}
+.camp .box img{
+    height:140px;
+    width:360px;
+    display:inline-flexbox;
+    padding:30px;
+    align-content:center;
+}
+.camp .box p
+{
+    font-family:'Book Antiqua';
+font-size:1rem;
+}

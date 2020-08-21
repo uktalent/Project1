@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Basic.master.cs" Inherits="Basic_Basic" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../zCode/css/StyleSheet.css" rel="stylesheet" />
+    <link href="../zCode/webfonts/all.css" rel="stylesheet" />
+    <link href="../zCode/css/searchh.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="menu">
+            <ul>
+                <li><a href="Home.aspx"><i class="fa fa-home"></i> Home</a></li>
+                <li><i class="fa fa-briefcase"></i> Login</li>
+                <li><i class="fa fa-brain"></i> Register</li>
+                <li><a href="Gallary.aspx"><i class="fa fa-cat"></i> Gallary</a></li>
+                <div id="f2" class="search-form_3">            
+    <asp:TextBox ID="TextBox1" CssClass="search_3" runat="server"/>
+    <asp:Button ID="srcbtn" runat="server" CssClass="sub" Text="Search" />
+</div> 
+            </ul>
+        </div>
+        
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="ftback">
+            Designed by
+        </div>
+    </form>
+</body>
+</html>
